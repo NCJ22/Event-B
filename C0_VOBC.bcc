@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="finite(Trains)" org.eventb.core.source="/CBTC_STPA_Modify/C0_VOBC.buc|org.eventb.core.contextFile#C0_VOBC|org.eventb.core.axiom#," org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="finite(SEC)" org.eventb.core.source="/CBTC_STPA_Modify/C0_VOBC.buc|org.eventb.core.contextFile#C0_VOBC|org.eventb.core.axiom#-" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name=")" org.eventb.core.label="axm4" org.eventb.core.predicate="net∈SEC ↔ SEC" org.eventb.core.source="/CBTC_STPA_Modify/C0_VOBC.buc|org.eventb.core.contextFile#C0_VOBC|org.eventb.core.axiom#\/" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="*" org.eventb.core.label="axm5" org.eventb.core.predicate="net∩(SEC ◁ (id ⦂ ℙ(SEC×SEC)))=(∅ ⦂ ℙ(SEC×SEC))" org.eventb.core.source="/CBTC_STPA_Modify/C0_VOBC.buc|org.eventb.core.contextFile#C0_VOBC|org.eventb.core.axiom#0" org.eventb.core.theorem="false"/>
+<org.eventb.core.scCarrierSet name="SEC" org.eventb.core.source="/CBTC_STPA_Modify/C0_VOBC.buc|org.eventb.core.contextFile#C0_VOBC|org.eventb.core.carrierSet#)" org.eventb.core.type="ℙ(SEC)"/>
+<org.eventb.core.scConstant de.prob.symbolic.symbolicAttribute="false" name="net" org.eventb.core.source="/CBTC_STPA_Modify/C0_VOBC.buc|org.eventb.core.contextFile#C0_VOBC|org.eventb.core.constant#(" org.eventb.core.type="ℙ(SEC×SEC)"/>
+<org.eventb.core.scCarrierSet name="Trains" org.eventb.core.source="/CBTC_STPA_Modify/C0_VOBC.buc|org.eventb.core.contextFile#C0_VOBC|org.eventb.core.carrierSet#*" org.eventb.core.type="ℙ(Trains)"/>
+</org.eventb.core.scContextFile>

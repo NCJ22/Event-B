@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase" version="3">
+<org.eventb.core.constant de.prob.symbolic.symbolicAttribute="false" name="(" org.eventb.core.identifier="net"/>
+<org.eventb.core.carrierSet name=")" org.eventb.core.identifier="SEC"/>
+<org.eventb.core.carrierSet name="*" org.eventb.core.identifier="Trains"/>
+<org.eventb.core.axiom name="," org.eventb.core.label="axm1" org.eventb.core.predicate="finite(Trains)"/>
+<org.eventb.core.axiom name="-" org.eventb.core.label="axm2" org.eventb.core.predicate="finite(SEC)"/>
+<org.eventb.core.axiom name="/" org.eventb.core.label="axm4" org.eventb.core.predicate="net∈SEC↔SEC"/>
+<org.eventb.core.axiom name="0" org.eventb.core.label="axm5" org.eventb.core.predicate="net ∩ (SEC ◁ id)=∅"/>
+</org.eventb.core.contextFile>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="SEC" org.eventb.core.type="ℙ(SEC)"/>
+<org.eventb.core.poIdentifier name="Trains" org.eventb.core.type="ℙ(Trains)"/>
+<org.eventb.core.poIdentifier name="net" org.eventb.core.type="ℙ(SEC×SEC)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/CBTC_STPA_Modify/C0_VOBC.bpo|org.eventb.core.poFile#C0_VOBC|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="finite(Trains)" org.eventb.core.source="/CBTC_STPA_Modify/C0_VOBC.buc|org.eventb.core.contextFile#C0_VOBC|org.eventb.core.axiom#,"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="finite(SEC)" org.eventb.core.source="/CBTC_STPA_Modify/C0_VOBC.buc|org.eventb.core.contextFile#C0_VOBC|org.eventb.core.axiom#-"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="net∈SEC ↔ SEC" org.eventb.core.source="/CBTC_STPA_Modify/C0_VOBC.buc|org.eventb.core.contextFile#C0_VOBC|org.eventb.core.axiom#\/"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="net∩(SEC ◁ (id ⦂ ℙ(SEC×SEC)))=(∅ ⦂ ℙ(SEC×SEC))" org.eventb.core.source="/CBTC_STPA_Modify/C0_VOBC.buc|org.eventb.core.contextFile#C0_VOBC|org.eventb.core.axiom#0"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>
